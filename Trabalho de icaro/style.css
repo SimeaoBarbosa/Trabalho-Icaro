@@ -1,5 +1,13 @@
-*{margin: 0;
-padding: 0;}
-div{background-color: aqua;
-width: 30px;}
-.d1{background-color: brown;}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	background-color: aqua;
+	width: 30px;
+}
+
+.d1 {
+	background-color: brown;
+}
