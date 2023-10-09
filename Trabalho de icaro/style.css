@@ -35,5 +35,12 @@ color: white;
 flex-direction: column;    
 }
 #p1 {
+    height: 2em;
+    width: 20em;
+    border-radius: 20px;
+    padding: 4px 10px ;
+    border: none;
+    border-style: none;
+    outline-style: none;
     background-color: silver;
 }
