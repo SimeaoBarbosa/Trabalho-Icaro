@@ -3,14 +3,15 @@ body{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    height: 100vh;
 }
 
 .parte1{
-    width: 15%;
+    width: 14.9%;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: burlywood;
+    border-right: 1px solid black;
 }
 
 #serv {
@@ -19,7 +20,7 @@ body{
     width: 85%;
     height: 60em;
     padding-top: 60px;
-    background-color: rgb(90, 51, 0);
+    justify-content: space-evenly;
 }
 
 .QUIZ {
@@ -30,6 +31,15 @@ body{
     height: 40em;
     width: 50em;
 }
+
+.QUIZ1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
 #QUIZ{
     width: 49em;
     height: 40em;
@@ -43,6 +53,8 @@ body{
     width: 48em;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 8px;
+
 }
 
 .img1{
@@ -51,8 +63,13 @@ body{
     width: 48em;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 8px;
+
 }
 
-#serv div:nth-child(1){
-    margin: 0px 5px;
+.img3{
+    margin-top: 4em;
+    height: 20em;
+    width: 28em;
+    border-radius: 8px;
 }
